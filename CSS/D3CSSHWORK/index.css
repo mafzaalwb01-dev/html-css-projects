@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.navbar a:last-child {
+    margin-right: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+.indro {
+    text-align: center;
+}
+
+.indro h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.indro p {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.img {
+    margin: 40px;
+}
+
+.img img {
+    border: 10px solid #ffcc00;
+    border-radius: 50px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.aboutme {
+    text-align: center;
+    margin: 40px;
+}
+
+.aboutme h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.aboutme p {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.skills {
+    margin: 40px;
+}
+
+.skills h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.progress {
+    height: 10px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.progress-bar {
+    height: 10px;
+    border-radius: 5px;
+    background-color: #ff573300;
+}
+
+.simple-footer {
+    background-color: pink;
+    padding: 20px;
+    text-align: center;
+    color: #333;
+    border-top: 1px solid #e1e1e1;
+    font-family: sans-serif;
+}
+
+.footer-content p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
+.footer-links {
+    margin-top: 10px;
+}
+
+.footer-links a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 0.85rem;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.contuct {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #e1e1e1;
+    font-family: sans-serif;
+}
+
+#name, #email, #password {
+    height: 40px;
+    width: 300px;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #e1e1e1;
+    font-size: 18px;
+}
+
+#password {
+    margin-right: 30px;
+}
+
+@import "bootstrap/scss/bootstrap.scss";

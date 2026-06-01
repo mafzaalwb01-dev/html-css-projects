@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            @font-face {
+                font-family: ;
+                src: url();
+            }
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 100%;
+            padding: 10px 0px;
+            background-color: cadetblue;
+        }
+
+        .nav h1 {
+            font-size: 30px;
+            margin-left: 50px;
+        }
+
+        .nav div {
+            display: flex;
+            gap: 20px;
+        }
+
+        .btn {
+            background-color: #000;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+
+        .btn:hover {
+            background-color: #fff;
+            color: #000;
+            border: 1px solid #000;
+        }
+        .one{
+            display: flex;
+            margin-right: 20px;
+            color: #000;
+        }
+
+        .one a {
+            text-decoration: none;
+            color: #000;
+            font-size: 20px;
+            margin-right: 40px;
+            padding: 15px;
+            background-color: cadetblue;
+        }
+        p{
+            margin-left: 20px;
+            margin-top: 20px;
+            font-size: 20px;
+            color: #000;
+            word-spacing: 10px;
+        }
+        @media (min-width:480px) and (max-width:768px){
+            .body{ 
+                float: none;
+                width: 100%;
+            }
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <h1>Navbar</h1>
+        <div class="one">
+            <a href="#">Hoom</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="btn">Hover Me</div>
+    </div>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero est fugiat magnam vitae, reiciendis ipsam vel, expedita autem ducimus minima saepe consequuntur molestias, incidunt voluptatum neque eius error nulla sit.
+    </p>
+</body>
+
+</html>
