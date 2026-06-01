@@ -1,0 +1,428 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: black;
+  background-color: #071739;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #0B1F4D;
+  color: white;
+  height: 60px;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+
+nav {
+  gap: 10px;
+  margin-left: 100px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  /* margin-left: 0px; */
+  font-size: 19px;
+  font-weight: 400;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #00E5FF;
+  border-bottom: 2px solid #00E5FF;
+}
+
+.btn-1 {
+  width: 120px;
+  height: 43px;
+  border-radius: 8px/20px;
+  background-color: #00C2FF;
+  color: #071739;
+  margin-left: 220px;
+}
+
+.btn-1:hover {
+
+  padding: 15px;
+  background-color: #FFD166;
+  color: #071739;
+  transition: 0.4s;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.h-left {
+  width: 42%;
+}
+
+#h-heading {
+  font-size: 85px;
+  color: #00E5FF;
+  padding: 10px;
+  margin-left: 50px;
+
+}
+
+#h-paragraph {
+  font-size: larger;
+  color: #D6E4FF;
+  line-height: 30px;
+  padding: 10px;
+  margin-left: 25px;
+
+}
+
+.btn-2 {
+  width: 190px;
+  height: 40px;
+  background-color: #00C2FF;
+  color: #071739;
+  margin-left: 40px;
+  /* padding: 10px; */
+  border-radius: 5px/20px;
+  /* color: black; */
+  font-size: 19px;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+#aroo {
+  margin-left: 20px;
+  font-size: 20px;
+  color: black;
+}
+
+.btn-2:hover {
+  background-color: pink;
+}
+
+.h-right {
+  width: 58%;
+}
+
+.h-right img {
+  height: 500px;
+  border-radius: 50px/250px;
+  width: 500px;
+  padding: 5px;
+  margin-left: 230px;
+  padding-top: 20px;
+
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: palevioletred;
+  margin: 40px 60px;
+  width: 90%;
+  height: 220px;
+  padding: 20px;
+  border-radius: 20px;
+  gap: 20px;
+}
+
+.one,
+.two,
+.three,
+.four {
+  width: 22%;
+  color: black;
+  margin: 10px;
+}
+
+.one h2,
+.two h2,
+.three h2,
+.four h2 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.one p,
+.two p,
+.three p,
+.four p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+#m-heading {
+  display: flex;
+  justify-content: center;
+}
+
+/* products  */
+.product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 60px;
+  width: 90%;
+  height: 400px;
+}
+
+#product-heading {
+  font-size: 35px;
+  color: blue;
+  margin-bottom: 20px;
+  margin-left: 590px;
+  padding: 20px;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 30px 0px 30px 0px;
+  text-align: center;
+}
+
+.two-p,
+.three-p,
+.one-p {
+  width: 100%/3;
+  height: 105%;
+  /* background-color: wheat; */
+  background: #112D6B;
+  transition: 0.4s;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 70px;
+  padding: 5px;
+  border-radius: 25px 0px;
+
+}
+
+.two-p:hover,
+.three-p:hover,
+.one-p:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 0px 20px #00E5FF;
+}
+
+
+
+.two-p h2,
+.three-p h2,
+.one-p h2 {
+  margin: 20px 0px 0px 10px;
+  font-size: 20px;
+  color: blue;
+}
+
+.two-p h3,
+.three-p h3,
+.one-p h3 {
+  margin: 15px 0px 0px 10px;
+  color: white;
+}
+
+#p-1 {
+  height: 300px;
+  width: 310px;
+  border-radius: 20px 0px 0px 0px;
+  /* background-color: red; */
+}
+
+
+
+/* ABOUT DVELOPER SECTION */
+
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 420px;
+  border-radius: 20px;
+  margin: 80px;
+  background-color: #00E5FF;
+  color: #071739;
+  border: none;
+  padding: 20px;
+}
+
+.intro-a {
+  width: 45%;
+  height: 340px;
+  margin-left: 50px;
+  padding: 10px;
+  /* background-color: yellow; */
+}
+
+#about-h {
+  line-height: 1.9;
+  margin-top: 10px 20px 20px 40px;
+}
+
+#about-p {
+  line-height: 1.7;
+  margin: 10px;
+  font-size: 18.3px;
+  ;
+}
+
+.skill {
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 160px;
+  margin-top: 80px;
+}
+
+.skill-s {
+
+  display: block;
+  justify-content: start;
+  align-items: start;
+  width: 190px;
+  border: 2px solid black;
+  background-color: aqua;
+  height: 30px;
+  margin-bottom: 190px;
+  flex-direction: column;
+}
+
+#mypic {
+  height: 300px;
+  width: 300px;
+  border-radius: 50px;
+  margin-right: 150px;
+}
+
+
+
+/* CONTACT SECTION */
+
+.contact-s {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  height: 550px;
+  background-color: wheat;
+  margin: 100px;
+  /* padding: 10px 70px 70px 100px; */
+  border-radius: 40px;
+  padding: 20px;
+
+}
+
+.c-heading {
+  margin-left: 180px;
+  font-size: 45px;
+  padding: 2px;
+  font-weight: bold;
+  /* background-color: red; */
+
+}
+
+/* .c-paragraph { */
+  /* font-size: 19px; */
+  /* margin-left: 180px; */
+/* } */
+
+.name {
+  margin-left: 200px;
+  font-size: 21px;
+}
+
+.name-i {
+  height: 33px;
+  width: 275px;
+  margin-top: 30px;
+}
+
+.email {
+  margin-left: 200px;
+  font-size: 20px;
+}
+
+.email-i {
+  height: 35px;
+  width: 275px;
+  margin-top: 5px;
+}
+
+.w-number {
+  margin-left: 200px;
+  font-size: 19px;
+}
+
+.w-number-i {
+  height: 35px;
+  width: 270px;
+  margin-right: 100px;
+  margin-top: 10px;
+}
+
+.yourmess {
+  /* margin-left: 250px; */
+}
+
+.textarea-i {
+  height: 100px;
+  border: 1px solid black;
+  width: 280px;
+  margin-left: 200px;
+
+}
+
+.btn-sub {
+  width: 80px;
+  height: 30px;
+  margin-left: 400px;
+  background-color: saddlebrown;
+  margin-top: 10px;
+}
+
+/* soical Link*/
+.s-links {
+  margin-left: 240px;
+  margin-top: 17px;
+
+}
+
+a img {
+  height: 40px;
+  margin-left: 20px;
+}
+
+
+
+/* FOOTER SECTION */
+footer {
+  background-color: lightblue;
+  width: 100%;
+  height: 220px;
+}
+
+#f-1h {
+  margin-left: 550px;
+  padding-top: 60px;
+  padding-bottom: 20px;
+
+}
+
+#f-2h {
+  margin-left: 510px;
+}
+
+.f-icons {
+  margin-left: 600px;
+  filter: brightness(100px);
+  margin-top: 20px;
+  padding: 5px;
+}
